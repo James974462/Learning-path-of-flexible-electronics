@@ -1155,43 +1155,8 @@ flexible-sensor-project/
 
 ---
 
-## 附录 F：GitHub README 发布建议
 
-如果这份文件作为 GitHub 仓库首页，建议仓库结构如下：
-
-```text
-flexible-electronics-learning-roadmap/
-├── README.md
-├── LICENSE
-├── resources/
-│   ├── papers.md
-│   ├── tutorials.md
-│   └── datasets.md
-├── templates/
-│   ├── literature_table.xlsx
-│   ├── experiment_log_template.md
-│   └── weekly_report_template.md
-└── figures/
-    └── roadmap.png
-```
-
-建议 README 开头加入：
-
-```markdown
-# Flexible Electronics / Flexible Sensor Learning Roadmap
-
-This repository provides a practical learning roadmap for new graduate students entering flexible electronics and flexible sensor research. It covers sensor fundamentals, mechanical design, multiphysics simulation, fabrication, embedded systems, data analysis, neural-network-based calibration, and research tools.
-```
-
-推荐 license：
-
-- 内容文档：CC BY-NC 4.0；
-- 代码：MIT License；
-- 数据：根据是否公开和是否包含受试者信息单独决定。
-
----
-
-## 附录 G：最小实验记录模板
+## 附录 F：最小实验记录模板
 
 ```markdown
 # Experiment Log
@@ -1239,7 +1204,7 @@ This repository provides a practical learning roadmap for new graduate students 
 
 ---
 
-## 附录 H：组会汇报模板
+## 附录 G：组会汇报模板
 
 ```markdown
 # Weekly Report
