@@ -450,7 +450,7 @@ PS-2026-002
 | 传感读出 | 电阻读出、电容读出、电荷放大、电压/电流采样 | 比较分压、电桥和恒流源读出差异 |
 | ADC | 分辨率、采样率、噪声、参考电压、有效位数 ENOB | 计算 12-bit ADC 的理论分辨率 |
 | 多通道采集 | MUX、扫描频率、串扰、同步采样 | 读取 8 个以上通道 |
-| PCB/FPC | 原理图、布局、地线、屏蔽、柔性排线、连接器 | 用 KiCad 画一块采集板 |
+| PCB/FPC | 原理图、布局、地线、屏蔽、柔性排线、连接器 | 用 立创EDA 画一块采集板 |
 | 通信 | UART、I2C、SPI、USB、BLE、Wi-Fi | 串口实时发送数据到 Python |
 | 电源 | LDO、DC-DC、电池、充电管理、低功耗 | 设计 USB 供电和电池供电方案 |
 | 封装 | 焊盘、引线应力释放、防水、防汗液、机械保护 | 做一次弯折后的连接可靠性测试 |
@@ -470,9 +470,9 @@ PS-2026-002
 
 | 平台 | 适合用途 | 推荐学习顺序 |
 |---|---|---|
-| Arduino UNO/Nano | 零基础入门、单通道传感器读取 | 第 1 个 demo |
-| ESP32 | Wi-Fi/BLE、无线采集、低成本原型 | 第 2 个 demo |
-| STM32 | 多通道高速采样、较正式的科研系统 | 正式系统 |
+| STM32 | 多通道高速采样、较正式的科研系统 | 第 1 个 demo |
+| ESP32 | Wi-Fi/BLE、无线采集、低成本原型 | 了解 |
+| Arduino UNO/Nano | 零基础入门、单通道传感器读取 | 了解 |
 | Raspberry Pi | 上位机、图像处理、复杂数据存储 | 视觉触觉/机器人方向 |
 | Teensy | 高速采样、音频/触觉信号处理 | 进阶 |
 | NI DAQ | 高精度实验室标定系统 | 论文标定平台 |
@@ -610,9 +610,9 @@ Visualization / application demo
 |---|---|---|---|
 | SolidWorks | 结构设计、模具设计、装配 | 必学 | 能画传感器结构、夹具、模具 |
 | KeyShot | 快速工业渲染 | 必学 | 能做论文示意图和展示图 |
-| Blender | 复杂渲染、动画、TOC 图 | 建议掌握 | 能做更高质量三维示意图 |
-| Rhino | 曲面结构、可穿戴贴合形态 | 建议掌握 | 适合复杂曲面和可穿戴贴附 |
+| Rhino | 曲面结构、可穿戴贴合形态 | 必学 | 适合复杂曲面和可穿戴贴附 |
 | AutoCAD | 掩膜版、二维图纸 | 必学 | 能画 mask、激光切割图、二维工程图 |
+| Blender | 复杂渲染、动画、TOC 图 | 建议掌握 | 能做更高质量三维示意图 |
 
 ### 8.3 编程与版本管理
 
@@ -623,9 +623,9 @@ Visualization / application demo
 | MATLAB | 信号处理、建模 | 建议掌握 | 能做滤波、拟合和数据可视化 |
 | Git/GitHub | 代码版本管理、论文复现、项目发布 | 必学 | 能 commit、branch、写 README |
 | VS Code | 写代码、Markdown、Python、嵌入式 | 必学 | 作为主力编辑器 |
-| Jupyter Notebook | 数据探索和可视化 | 必学 | 用于初步分析，不替代正式脚本 |
-| LaTeX / Overleaf | 论文、公式、排版 | 建议掌握 | 至少能改模板和公式 |
 | Markdown | README、实验记录、文档 | 必学 | 能维护项目文档 |
+| Jupyter Notebook | 数据探索和可视化 | 建议掌握 | 用于初步分析，不替代正式脚本 |
+| LaTeX / Overleaf | 论文、公式、排版 | 建议掌握 | 至少能改模板和公式 |
 
 ### 8.4 工具学习优先级
 
@@ -672,10 +672,9 @@ Visualization / application demo
 | 微机原理 | B站：微机原理相关教程 |了解嵌入式系统架构
 | STM32 入门 | B站：江协科技 STM32 入门教程 | GPIO、ADC、串口、定时器 |
 | ESP32 | Espressif ESP-IDF 官方 Get Started | Wi-Fi/BLE 数据采集 |
-| 上位机设计| C#语言与VS设计上位机 |界面功能设计与上下位机通讯
+| 上位机设计| QT;Python;C#语言与VS设计上位机 |界面功能设计与上下位机通讯
 | 可穿戴电子 | Adafruit Learning System / Wearables | 学可穿戴电路和导线连接 |
-| PCB 设计 | KiCad 官方 Getting Started | 原理图、PCB、Gerber |
-| KiCad 中文教程 | B站搜索“KiCad 画电路板 入门” | 快速完成第一块板 |
+| PCB 设计 | B站：立创EDA 入门教程 | 原理图、PCB |
 
 ### 9.4 Python / 数据分析 / 机器学习
 
@@ -1114,7 +1113,7 @@ flexible-sensor-project/
 - Arduino Getting Started: https://docs.arduino.cc/learn/starting-guide/getting-started-arduino/  
 - ESP-IDF Get Started: https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html  
 - STM32CubeIDE Quick Start: https://www.st.com/resource/en/user_manual/um2553-stm32cubeide-quick-start-guide-stmicroelectronics.pdf  
-- KiCad Getting Started: https://docs.kicad.org/  
+- 立创EDA Getting Started: https://www.bilibili.com/video/BV1fM411Z7cW/  
 - FreeCAD Getting Started: https://wiki.freecad.org/Getting_started  
 - Blender Manual: https://docs.blender.org/manual/en/latest/index.html  
 - Matplotlib: https://matplotlib.org/  
