@@ -464,7 +464,6 @@ PS-2026-002
 | 数据格式 | CSV、JSON、HDF5、时间戳同步 | 每条数据包含 timestamp 和 channel values |
 | 实时系统 | 采样频率控制、缓存、丢包检测 | 记录采样间隔并统计 jitter |
 | 无线传输 | BLE GATT、ESP32 Wi-Fi、MQTT | ESP32 无线发送传感器数据 |
-| TinyML | 模型压缩、量化、MCU 推理 | 部署一个小型 MLP 分类或回归模型 |
 
 ### 6.3 推荐硬件平台
 
@@ -474,7 +473,6 @@ PS-2026-002
 | ESP32 | Wi-Fi/BLE、无线采集、低成本原型 | 了解 |
 | Arduino UNO/Nano | 零基础入门、单通道传感器读取 | 了解 |
 | Raspberry Pi | 上位机、图像处理、复杂数据存储 | 视觉触觉/机器人方向 |
-| Teensy | 高速采样、音频/触觉信号处理 | 进阶 |
 | NI DAQ | 高精度实验室标定系统 | 论文标定平台 |
 | 自制 PCB/FPC | 论文级系统集成 | 课题后期 |
 
@@ -621,11 +619,10 @@ Visualization / application demo
 | Python | 数据、算法、自动化 | 必学 | 能写可复现分析脚本 |
 | C/C++ | MCU、驱动、底层通信 | 必学 | 能写 ADC、串口、I2C/SPI 驱动 |
 | MATLAB | 信号处理、建模 | 建议掌握 | 能做滤波、拟合和数据可视化 |
-| Git/GitHub | 代码版本管理、论文复现、项目发布 | 必学 | 能 commit、branch、写 README |
+| Git/GitHub | 代码版本管理、论文复现、项目发布 | 了解 | 能 commit、branch、写 README |
 | VS Code | 写代码、Markdown、Python、嵌入式 | 必学 | 作为主力编辑器 |
-| Markdown | README、实验记录、文档 | 必学 | 能维护项目文档 |
-| Jupyter Notebook | 数据探索和可视化 | 建议掌握 | 用于初步分析，不替代正式脚本 |
-| LaTeX / Overleaf | 论文、公式、排版 | 建议掌握 | 至少能改模板和公式 |
+| Markdown | README、实验记录、文档 | 了解 | 能维护项目文档 |
+| LaTeX | 论文、公式、排版 | 了解 | 至少能改模板和公式 |
 
 ### 8.4 工具学习优先级
 
@@ -685,8 +682,6 @@ Visualization / application demo
 | 机器学习 | 吴恩达机器学习 / scikit-learn User Guide | 回归、分类、交叉验证、评价指标 |
 | 深度学习 | 跟李沐学 AI / 动手学深度学习 | MLP、CNN、RNN、训练流程 |
 | PyTorch | PyTorch 官方 Tutorials | 数据集、模型、训练、保存 |
-| TinyML | TensorFlow Lite Micro GitHub | MCU 端模型部署 |
-| Jupyter | Jupyter 官方文档 | 数据探索和图表展示 |
 | 科研绘图 | B站搜索 Origin 教程 / Matplotlib Tutorials | 论文级数据图 |
 
 ### 9.5 柔性触觉 / 机器人触觉开源项目
