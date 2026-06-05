@@ -1133,7 +1133,6 @@ flexible-sensor-project/
 ### B站建议检索
 
 - 江协科技 STM32 入门教程  
-- 正点原子 STM32 HAL 库开发全集  
 - KiCad 画电路板 入门  
 - COMSOL 多物理场仿真 技术应用 专题培训  
 - Abaqus 超弹性 接触 PDMS 仿真  
